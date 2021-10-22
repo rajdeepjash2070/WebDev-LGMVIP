@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="blogging.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+  
+    </style>
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/2c7fc28a2f.js"></script>
+</head>
+<body>
+  
+    <nav id="navbar">
+        <a href="#" id="homelink">Home</a>
+        <a href="#" id="worksdrop">works
+        </a>
+        <a href="#">profiles</a>
+        <a href="#">about us</a>
+        <a href="#">login</a>
+        <a href="#">Sign up</a>
+      
+       
+    </nav>
+   
+    <h2 id="share"> share us on</h2>
+    <div id="sticky1" class="darkdiv">
+      <img src="twitter-icon.jpg" alt="">
+    </div>
+    <div id="sticky2"><img src="Glossy-icon.png" alt=""></div>
+    <div id="sticky3"><img src="facebook-icon.jpg" alt=""></div>
+    <div id="blogimg"> <img src="blogging img.jpg" alt=""></div>
+   <!--This is the image slide show -->
+   <div class="container1">
+    <!--       <img src="images/a1.jpg" id="myImage" /> -->
+    <img src="blogging img.jpg" id="myImage" />
+    <button class="arrow" onclick="Left()">prev</button>
+    <button class="arrow right" onclick="Right()">next</button>
+  </div>
+  <h1 id="trendtext1" style="font-family: cursive; color: rgb(255, 255, 255);text-align: center;margin-top: 50px;">Trending Images for you</h1>
+  <div class="container">
+    <main class="grid">
+      <article>
+        <img src="https://picsum.photos/600/400?image=1083" alt="Sample photo">
+        <div class="text">
+          <h3>Seamlessly visualize quality</h3>
+          <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
+          <a href="https://codepen.io/collection/XdWJOQ/" class="btn btn-primary btn-block">Here's why</a>
+        </div>
+      </article>
+      <article>
+        <img src="https://picsum.photos/600/400?image=1063" alt="Sample photo">
+        <div class="text">
+          <h3>Completely Synergize</h3>
+          <p>Dramatically engage seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing.</p>
+          <a href="https://codepen.io/collection/XdWJOQ/" class="btn btn-primary btn-block">Here's how</a>
+        </div>
+      </article>
+      <article>
+        <img src="https://picsum.photos/600/400?image=1056" alt="Sample photo">
+        <div class="text">
+          <h3>Dynamically Procrastinate</h3>
+          <p>Completely synergize resource taxing relationships via premier niche markets.</p>
+          <a href="https://codepen.io/collection/XdWJOQ/" class="btn btn-primary btn-block">Read more</a>
+        </div>
+      </article>
+      <article>
+        <img src="https://picsum.photos/600/400?image=1050" alt="Sample photo">
+        <div class="text">
+          <h3>Best in class</h3>
+          <p>Imagine jumping into that boat, and just letting it sail wherever the wind takes you...</p>
+          <a href="https://codepen.io/collection/XdWJOQ/" class="btn btn-primary btn-block">Just do it...</a>
+        </div>
+      </article>
+      <article>
+        <img src="https://picsum.photos/600/400?image=1041" alt="Sample photo">
+        <div class="text">
+          <h3>Dynamically innovate supply chains</h3>
+          <p>Holisticly predominate extensible testing procedures for reliable supply chains.</p>
+          <a href="https://codepen.io/collection/XdWJOQ/" class="btn btn-primary btn-block">Here's why</a>
+        </div>
+      </article>
+      <article>
+        <img src="https://picsum.photos/600/400?image=1015" alt="Sample photo">
+        <div class="text">
+          <h3>Sanity check</h3>
+          <p>Objectively innovate empowered manufactured products whereas parallel platforms.</p>
+          <a href="https://codepen.io/collection/XdWJOQ/" class="btn btn-primary btn-block">Stop here</a>
+        </div>
+      </article>
+    </main>
+  </div>
+  
+
+
+
+
+
+  
+  
+    <div id="trendtext">Some Trending Blogs for you</div>
+    
+        <div class="leftdesc">
+            <div> <video src="./blogvid.mp4"></video></div>
+            <div> <video src="./blogvid.mp4"></video></div>
+            <div> <video src="./blogvid.mp4"></video></div>
+           <div class="pimg"><img src="./profimg b&w.jpg" id="pimg" class="profimg" alt="">
+            
+            <div class="desctext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel voluptate voluptatum minus, nam error ad aut et itaque sed molestias, fuga magni laboriosam, incidunt harum! Sint ad distinctio vero nostrum.
+              <div class="desclink"><a href="#">Read more</a></div>  
+            </div>
+
+        
+          </div>
+                 <div class="descimg"><img src="./profimg b&w.jpg" alt=""></div>
+             
+              <div class="like" onclick="Like()"><img src="like icon.png" alt=""></div>
+              <div class="dislike"><img src="./dislike.png" alt=""></div>
+               <div style="font-size: 20px;font-family: cursive;">click to make a comment</div>
+              <input type="checkbox" class="commenticon">
+              
+             <div class="comment">
+               <input type="text" class="comment1" placeholder="say about the blog">
+               <button onclick="add()" class="commentbtn">comment</button>
+<button onclick="location.reload()">Clear</button>
+<ul class="list"></ul>
+             </div>
+             
+          </div>
+          <div class="leftdesc">
+            <div> <video src="./blogvid.mp4"></video></div>
+            <div> <video src="./blogvid.mp4"></video></div>
+            <div> <video src="./blogvid.mp4"></video></div>
+           <div class="pimg"><img src="./profimg b&w.jpg" id="pimg" class="profimg" alt="">
+            
+            <div class="desctext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel voluptate voluptatum minus, nam error ad aut et itaque sed molestias, fuga magni laboriosam, incidunt harum! Sint ad distinctio vero nostrum.
+              <div class="desclink"><a href="#">Read more</a></div>  
+            </div>
+
+        
+          </div>
+                 <div class="descimg"><img src="./profimg b&w.jpg" alt=""></div>
+             
+              <div class="like" onclick="Like()"><img src="like icon.png" alt=""></div>
+              <div class="dislike"><img src="./dislike.png" alt=""></div>
+               <div style="font-size: 20px;font-family: cursive;">click to make a comment</div>
+              <input type="checkbox" class="commenticon">
+              
+             <div class="comment">
+               <input type="text" class="comment1" placeholder="say about the blog">
+               <button onclick="add()" class="commentbtn">comment</button>
+<button onclick="location.reload()">Clear</button>
+<ul class="list"></ul>
+             </div>
+             
+          </div>
+          <div class="leftdesc">
+            <div> <video src="./blogvid.mp4"></video></div>
+            <div> <video src="./blogvid.mp4"></video></div>
+            <div> <video src="./blogvid.mp4"></video></div>
+           <div class="pimg"><img src="./profimg b&w.jpg" id="pimg" class="profimg" alt="">
+            
+            <div class="desctext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel voluptate voluptatum minus, nam error ad aut et itaque sed molestias, fuga magni laboriosam, incidunt harum! Sint ad distinctio vero nostrum.
+              <div class="desclink"><a href="#">Read more</a></div>  
+            </div>
+
+        
+          </div>
+                 <div class="descimg"><img src="./profimg b&w.jpg" alt=""></div>
+             
+              <div class="like" onclick="Like()"><img src="like icon.png" alt=""></div>
+              <div class="dislike"><img src="./dislike.png" alt=""></div>
+               <div style="font-size: 20px;font-family: cursive;">click to make a comment</div>
+              <input type="checkbox" class="commenticon">
+              
+             <div class="comment">
+               <input type="text" class="comment1" placeholder="say about the blog">
+               <button onclick="add()" class="commentbtn">comment</button>
+<button onclick="location.reload()">Clear</button>
+<ul class="list"></ul>
+             </div>
+             
+            
+
+
+
+
+
+
+          <footer class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="footer-col">
+                  <h4>company</h4>
+                  <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>get help</h4>
+                  <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">returns</a></li>
+                    <li><a href="#">order status</a></li>
+                    <li><a href="#">payment options</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>online shop</h4>
+                  <ul>
+                    <li><a href="#">watch</a></li>
+                    <li><a href="#">bag</a></li>
+                    <li><a href="#">shoes</a></li>
+                    <li><a href="#">dress</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>follow us</h4>
+                  <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+         </footer>
+       
+        
+ <script src="./Blogging/blogging.js">
+ 
+ 
+ </script>
+    </body>
+</html>
