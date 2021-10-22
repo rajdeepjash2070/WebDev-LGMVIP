@@ -1,0 +1,543 @@
+body{
+    font-family: sans-serif;
+    background-image: linear-gradient(147deg, #ff5100 0%, #ffb03a 74%);
+    margin: 0px;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+#homelink{
+    background-color: rgb(57, 175, 146);
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+}
+#navbar a{
+    text-decoration: none;
+    margin-left: 120px;
+     padding: 10px 13px 13px 13px;
+     color: rgb(255, 255, 255);
+     font-weight: bolder;
+     font-size: 20px;
+     font-family: sans-serif;
+   
+    
+}
+ #navbar a:hover{
+   background-color: rgb(57, 175, 146);
+   color: white;
+   border-radius: 20px 20px 20px 20px;
+   transition: 0.5s;
+
+} 
+#navbar{
+    overflow: hidden;
+    margin-top: 10px;
+   box-shadow: 0px 1px 15px 3px rgb(29, 28, 28);
+    padding-top: 23px;
+    padding-bottom: 23px;
+    border-radius: 5px 5px 5px 5px;
+    background-image: linear-gradient(147deg, #ff5100 0%, #ffb03a 74%);
+}
+
+#blogimg img{
+    height: 600px;
+    width: 1320px;
+}
+.container1 {
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    margin-top: -450px;
+    box-shadow: 0px 3px 15px 5px black;
+  }
+  .container1 img {
+      margin-top: 20px;
+    width: 700px;
+    height: 400px;
+    border-radius: 7px 7px 7px 7px;
+  }
+
+  .container1 .arrow {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 220px;
+ background-color: rgb(48, 196, 159);
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+  }
+ 
+  
+  .container1 .right {
+   left: 640px;
+    z-index: 3;
+    
+    text-align: center;
+    cursor: pointer;
+  }
+  .fa {
+    color: #272d4b;
+  }
+  .fa:hover {
+    color: #212741;
+    cursor: pointer;
+    text-shadow: 9px 7px 13px black;
+  }
+  /* .form {
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+  } */
+  input {
+    width: 80%;
+    height: 60px;
+    margin: 0;
+    border: 0;
+    padding: 0 20px;
+    font-size: 18px;
+    outline: 0;
+  }
+  
+  button {
+    width: 19.5%;
+    height: 60px;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    font-size: 18px;
+    outline: 0;
+    position: relative;
+    left: -4px;
+    background: #263636;
+    color: aliceblue;
+  }
+  button:hover {
+    /*   background: #395338;*/
+    background-color: #132125;
+    box-shadow: 3px 3px 18px black;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+  }
+  
+  .grid > article {
+   
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  .grid > article img {
+    max-width: 100%;
+  }
+  
+  .grid .text {
+    padding: 20px;
+  }
+.text a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: cursive;
+    width: 200px;
+    background-color: rgb(35, 136, 106);
+   padding: 10px 10px 10px 10px;
+   border-radius: 20px 20px 20px 20px;
+}  
+a:hover{
+    box-shadow: 0x 3px 15px 5px black;
+}
+main{
+    margin-top: 150px;
+}
+
+#trendtext{
+    text-align: center;
+    font-size: 45px;
+    font-family: cursive;
+    color: white;
+    margin-top: 40px;
+}
+#videocarasoul video{
+    height: 300px;
+    width: 500px;
+   margin-top: 50px;
+}
+
+
+
+
+
+
+
+.leftdesc{
+    height: 400px;
+    width: 920px;
+    background-color: rgb(35, 48, 58);
+    background-color: rgb(230, 235, 236);
+    font-size: 23px;
+   
+    margin-top: 80px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0px 30px 30px 0px; 
+    box-shadow: 0px 2px 15px 5px rgb(46, 45, 45);
+   
+}
+/* .profileimg2{
+    margin-top: -30px;
+
+}
+.profileimg3{
+    margin-top: -30px;
+
+} */
+.descimg img{
+    margin-left: 780px;
+margin-top: -100px;
+   border-radius: 20px 20px 20px 20px;
+    /* transition: 0.6s; */
+    cursor: pointer;
+    box-shadow: 0px 1px 15px 2px rgb(0, 0, 0);
+    height:240px;
+    width: 240px;
+   opacity: 0.7;
+   transform: rotatez(45deg);
+}
+.descimg img:hover{
+opacity: 1;
+transform: rotatez(0deg);
+transition: 0.4s;
+
+}
+.desctext{
+    height: 320px;
+    width: 270px;
+    box-shadow: inset 2px 2px 5px rgb(121, 122, 122),
+ inset -14px -14px 18px rgb(255, 255, 255);
+ border-radius: 5px 5px 5px 5px;
+ margin-left: 200px;
+ margin-top: -200px;
+ padding-left: 10px;
+ padding-right: 10px;
+ font-family: cursive;
+ font-size: 20px;
+}
+.commentcontainer{
+    height: 70px;
+    width: 400px;
+    margin-left: 960px;
+    margin-top: -400px;
+}
+.desclink a{
+    height: 40px;
+    width: 80px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(32, 184, 113);
+color: white;
+text-decoration: none;
+padding-right: 5px;
+padding-left: 5px;
+font-family: cursive;
+margin-left: 100px;
+cursor: pointer;
+box-shadow: -8px -8px 10px white,
+10px 10px 15px rgb(156, 153, 153);
+}
+@keyframes mymove {
+    0%{
+        transform: rotateX(0deg);
+    }
+    100%{
+        transform: rotateX(360deg);
+    }
+    
+}
+.profimg{
+    height: 170px;
+    width: 190px;
+    border-radius: 10px 10px 10px 10px;
+}
+/* .profimg:hover{
+    height: 250px;
+    width: 230px;
+    transition: 0.5s;
+} */
+.pimg{
+  margin-left: 240px; 
+  margin-top: -300px;
+}
+#sticky1 img{
+    position: fixed;
+    background-color: orangered;
+    height: 60px;
+    width: 60px;
+    margin-top: 100px;
+border-top-right-radius: 5px;
+cursor: pointer;
+
+
+}
+#sticky2 img{
+    position: fixed;
+    background-color: rgb(10, 127, 143);
+    height: 60px;
+    width: 60px;
+    margin-top: 160px;
+    cursor: pointer;
+    font-size: 13px;
+color: rgb(198, 255, 255);
+}
+#sticky3 img{
+    position: fixed;
+    background-color: rgb(128, 3, 177);
+    height: 60px;
+    width: 60px;
+    margin-top: 220px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+color: rgb(198, 255, 255);
+}
+#share{
+    margin-bottom: -70px;
+    margin-top: 80px;
+
+}
+.descimg{
+    margin-top: -120px;
+}
+
+.share{
+height: 70px;
+width: 70px;
+margin-left: -85px;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+margin-top: -200px;
+background-color: #384455;
+border: 2px solid rgba( 255, 255, 255, 0.18 );
+
+}
+.clinsta{
+    background-color: rgb(255, 51, 0);
+    height: 67px;
+width: 67px;
+margin-left: -80px;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+
+}
+.clfb{
+    background-color: rgb(40, 126, 255);
+    height: 70px;
+width: 70px;
+margin-left: -80px;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+.like img{
+    height: 50px;
+    width: 50px;
+   
+    border-radius: 5px 5px 5px 5px;
+   
+    /* padding-left: 60px; */
+    box-shadow: -8px -8px 10px white,
+    10px 10px 15px rgb(156, 153, 153);
+   
+
+    cursor: pointer;
+  
+  margin-left: 60px;
+  
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.dislike img{
+    height: 50px;
+    width: 50px;
+    
+    border-radius: 5px 5px 5px 5px;
+   
+    /* padding-left: 55px; */
+   
+    cursor: pointer;
+    box-shadow: -8px -8px 10px white,
+    10px 10px 15px rgb(156, 153, 153);
+   
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.dislike{
+    margin-top: -130px;
+    margin-left: 300px;
+}
+.like{
+    margin-left: 240px;
+    
+}
+#sticky4{
+    height: 35px;
+    width: 35px;
+   background-color: black;
+   color: white;
+  margin-top: 5px;
+    cursor: pointer;
+    font-size: 11px;
+   outline: none;
+   border: 1px solid black;
+   border-radius: 4px 4px 4px 4px;
+   box-shadow: 0px 1px 15px 2px rgb(133, 127, 127);
+}
+body{
+    background-color: white;
+}
+.darkmode{
+    background-color: #242d3b;
+    color: white;
+}
+.leftdesc video{
+height: 100px;
+width: 200px;
+background-color: yellowgreen;
+border-radius: 10px 10px 10px 10px;
+background:rgba(122, 131, 214, 0.18);
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+.comment1{
+width: 700px;
+
+margin-top: 80px;
+margin-left: 85px;
+border-radius: 20px 20px 20px 20px;
+}
+.comment{
+    height: auto;
+    background-color: rgb(200, 210, 214);
+    margin-top: 70px;
+    display: none;
+}
+button{
+height: 45px;
+width: 75px;
+background-color: rgb(52, 204, 128);
+border-radius: 20px 20px 20px 20px;
+margin-top: 10px;
+
+font-size: 17px;
+}
+.commentbtn{
+    margin-left: 150px;
+    padding-right: 5px;
+}
+.commenticon{
+   
+    box-shadow: -8px -8px 10px white,
+    10px 10px 15px rgb(156, 153, 153);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+text-align: center;
+cursor: pointer;
+border: 1px solid rgb(225, 233, 238);
+}
+.commenticon:checked+.comment{
+    display: block;
+}
+.commenticon:checked+.list{
+    display: block;
+}
+.footer{
+    margin-top: 350px;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+    border-radius: 100px 100px 0px 0px;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
